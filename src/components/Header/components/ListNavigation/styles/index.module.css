@@ -1,0 +1,18 @@
+.nav_list {
+    display: flex;
+    gap: 46px;
+    align-items: center;
+    margin-left: 55px;
+}
+
+.list_item {
+    list-style: none;
+}
+
+.list_link {
+    font-size: 18px;
+    text-decoration: none;
+    color: #446381;
+    font-family: var(--font-family);
+}
+
