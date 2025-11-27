@@ -1,18 +1,18 @@
 .nav_list {
-    display: flex;
-    gap: 46px;
-    align-items: center;
-    margin-left: 55px;
+  display: flex;
+  gap: 46px;
+  align-items: center;
+  margin-right: 55px;
+  padding: 0;
 }
 
 .list_item {
-    list-style: none;
+  list-style: none;
 }
 
 .list_link {
-    font-size: 18px;
-    text-decoration: none;
-    color: #446381;
-    font-family: var(--font-family);
+  font-size: 18px;
+  text-decoration: none;
+  color: #446381;
+  font-family: var(--font-family);
 }
-

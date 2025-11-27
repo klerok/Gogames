@@ -1,11 +1,13 @@
 .header {
   padding-top: 20px;
   padding-bottom: 8px;
+  position: absolute;
+  width: 100%;
 }
 
 .container {
-  margin: 0;
-  padding: 50px;
+  margin: 0 auto;
+  padding: 0 50px;
   max-width: 1267px;
 }
 

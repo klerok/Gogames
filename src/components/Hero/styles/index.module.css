@@ -1,0 +1,17 @@
+.hero {
+    background-size: cover;
+    background-image: url('../../../assets/images/image\ 3.png');
+    background-repeat: no-repeat;
+    padding-top: 145px;
+    padding-bottom: 98px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 50px;
+    max-width: 1267px;
+    display: flex;
+}
+
+
+

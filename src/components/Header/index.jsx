@@ -8,14 +8,16 @@ export const Header = () => {
     <header className={classes.header}>
       <div className={`${classes.container} ${classes.header_container}`}>
         <a href="#logo" className={classes.logo}>
-          <img src={logo} alt="logo" className={classes.img_logo}/>
+          <img src={logo} alt="logo" className={classes.img_logo} />
         </a>
         <nav className={classes.nav}>
           <ListNavigation linksData={linksData} />
+          <button className={classes.btn_start}>
+            <a href="#start" className={classes.btn_link}>
+              Get Started Now
+            </a>
+          </button>
         </nav>
-        <button className={classes.btn_start}>
-          <a href="#start" className={classes.btn_link}>Get Started Now</a>
-        </button>
       </div>
     </header>
   );
