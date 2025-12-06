@@ -1,6 +1,6 @@
 import classes from "./styles/index.module.css";
 import character from "../../assets/images/CFARACTER.png";
-import boxVr from "../../assets/images/vr.png"
+import boxVr from "../../assets/images/boxVr.png"
 import boxGp from "../../assets/images/gamepad.png"
 
 export const Hero = () => {
