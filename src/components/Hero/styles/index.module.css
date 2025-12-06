@@ -25,7 +25,6 @@
   font-size: 23px;
   color: #446381;
   font-family: var(--font-family);
-  font-weight: 500;
   line-height: 104%;
   text-align: left;
 }
@@ -48,7 +47,6 @@
   margin: 0 0 34px;
   font-size: 18px;
   line-height: 162%;
-  font-weight: 500;
   font-family: var(--font-family);
   text-align: left;
   color: #826f8c;
