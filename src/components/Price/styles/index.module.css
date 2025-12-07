@@ -1,0 +1,28 @@
+.price {
+  padding-top: 47px;
+  padding-bottom: 120px;
+  background-color: #fee9dc;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 50px;
+    max-width: 1267px;
+}
+
+.price_title {
+    margin: 0 0 15px;
+    text-align: center;
+    font-size: 23px;
+    color: #446381;
+    font-family: var(--font-family);
+}
+
+.price_subtitle {
+    margin: 0 0 85px;
+    text-align: center;
+    font-size: 67px;
+    line-height: 110%;
+    color: #eb8382;
+    font-family: var(--font-family);
+}

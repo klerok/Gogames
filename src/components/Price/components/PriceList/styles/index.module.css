@@ -1,0 +1,83 @@
+.price_list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 36px;
+}
+
+.price_flex {
+  padding: 36px;
+  background-color: #fbdacf;
+  border-radius: 25px;
+  width: 275px;
+  height: 566px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.price_flex::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.price_content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.price_name {
+  margin: 0 0 40px;
+  font-weight: 700;
+  font-size: 32px;
+  color: #446381;
+  font-family: var(--font-family);
+}
+
+.price_value {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 27px;
+  color: #eb8382;
+  font-family: var(--font-family);
+}
+
+.price_item {
+  font-size: 18px;
+  color: #446381;
+  font-family: var(--font-family);
+  margin-bottom: 30px;
+  position: relative;
+  padding-left: 20px;
+}
+
+.price_item::before {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  content: "";
+  position: absolute;
+  left: 18%;
+  top: 25%;
+  width: 13px;
+  height: 10px;
+  background-image: url(/src/assets/images/Vector.png);
+}
+
+.content_link {
+  display: inline-flex;
+  justify-content: center;
+  border: none;
+  border-radius: 25px;
+  margin-top: 60px;
+  padding: 15px 21px;
+  font-size: 18px;
+  font-family: var(--font-family);
+  text-decoration: none;
+  color: #fff;
+  background-image: linear-gradient(to right, #4499d9, #4499d9, #7367be);
+}
