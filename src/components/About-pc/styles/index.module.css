@@ -1,0 +1,65 @@
+.about_pc {
+  padding-top: 113px;
+  padding-bottom: 156px;
+  background-image: url(/src/assets/images/image\ 14.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 50px;
+  max-width: 1267px;
+  display: flex;
+  gap: 35px;
+  align-items: center;
+}
+
+.about_pc_content {
+  box-sizing: inherit;
+  text-align: left;
+  width: 100%;
+}
+
+.content_title {
+  margin: 0 0 15px;
+  font-size: 23px;
+  color: #446381;
+  font-family: var(--font-family);
+}
+
+.content_subtitle {
+  margin: 0 0 36px;
+  font-size: 67px;
+  color: #eb8382;
+  font-family: var(--font-family);
+  line-height: 110%;
+}
+
+.content_text {
+  margin: 0 0 34px;
+  font-size: 18px;
+  line-height: 162%;
+  font-family: var(--font-family);
+  color: #826f8c;
+}
+
+.content_btn {
+  border: none;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, #4499d9, #4499d9, #7367be);
+  padding: 15px 21px;
+}
+
+.content_link {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    font-family: var(--font-family);
+}
+
+.about_pc_scene {
+    width: 100%;
+    height: 100%;
+}

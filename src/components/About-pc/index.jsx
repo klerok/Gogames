@@ -1,18 +1,13 @@
 import classes from "./styles/index.module.css";
-import ilustration from "../../assets/images/illutration.png";
+import gamepad from "../../assets/images/Group (1).png";
 
-export const About = () => {
+export const AboutPc = () => {
   return (
-    <section className={classes.about}>
+    <section className={classes.about_pc}>
       <div className={classes.container}>
-        <div className={classes.about_scene}>
-          <img src={ilustration} alt="ilustration" />
-        </div>
-        <div className={classes.about_content}>
-          <h2 className={classes.content_title}>About VR Glasses</h2>
-          <h3 className={classes.content_subtitle}>
-            The New VR Glasses Series
-          </h3>
+        <div className={classes.about_pc_content}>
+          <h2 className={classes.content_title}>About XBOX, PS</h2>
+          <h3 className={classes.content_subtitle}>The New Xbox, Ps Series</h3>
           <p className={classes.content_text}>
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout. The point
@@ -24,6 +19,9 @@ export const About = () => {
               Get Started Now
             </a>
           </button>
+        </div>
+        <div className={classes.about_pc_scene}>
+            <img src={gamepad} alt="Gamepad" />
         </div>
       </div>
     </section>
